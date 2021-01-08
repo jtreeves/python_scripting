@@ -23,3 +23,8 @@ with open('person.txt', 'w') as happy_times_file:
 
 with open('person.txt', 'a') as more_file:
     more_file.write('\nAll of it!')
+
+with open('person.txt', 'r+') as this_file:
+    print(this_file.read())
+    this_file.write('\nI feel all the things')
+    print(this_file.read())
