@@ -20,3 +20,6 @@ person_file.close()
 
 with open('person.txt', 'w') as happy_times_file:
     happy_times_file.write('Happy Fun Times!')
+
+with open('person.txt', 'a') as more_file:
+    more_file.write('\nAll of it!')
