@@ -13,3 +13,10 @@ car_file.close()
 person_file = open('person.txt', 'w')
 person_file.write('Jackson Reeves')
 person_file.close()
+
+person_file = open('person.txt')
+print(person_file.read())
+person_file.close()
+
+with open('person.txt', 'w') as happy_times_file:
+    happy_times_file.write('Happy Fun Times!')
