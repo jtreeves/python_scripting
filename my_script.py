@@ -10,7 +10,7 @@ car_file.write(new_car_list)
 # print(car_file.read())
 car_file.close()
 
-with open('foods.txt') as foods:
+with open('food.txt') as foods:
     foods_list = foods.readlines()
     for each_food in foods_list:
         print(each_food)
