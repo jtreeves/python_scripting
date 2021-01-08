@@ -9,3 +9,7 @@ new_car_list = 'electric\ngas\nhybrid'
 car_file.write(new_car_list)
 # print(car_file.read())
 car_file.close()
+
+person_file = open('person.txt', 'w')
+person_file.write('Jackson Reeves')
+person_file.close()
